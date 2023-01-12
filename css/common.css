@@ -1,0 +1,126 @@
+body{
+  background-color: var(--Bg);
+}
+.like-active{
+  color: var(--main-color);
+}
+.like{
+  color: var(--color-gray);
+}
+
+/**********************/
+.card{
+  padding: 30px 0;
+  border-radius: 10px;
+  transition: border 0.3s linear ;
+  margin: 10px 0;
+}
+.top__card .sale > span{
+  background-color: var(--color-orange);
+  padding: 5px 12px;
+  color: var(--color-white);
+  border-radius: 4px;
+}
+.top__card{
+  padding: 10px 20px;
+}
+.top__card .like__product > i{
+  font-size: 22px;
+  cursor: var(--cursor);
+}
+
+.top__card .like__product > i:hover{
+  color: var(--main-color);
+}
+.card:hover{
+  outline: 2px solid var(--main-color);
+}
+.card .text__card .review i{
+  font-size: 15px;
+  color: var(--color-of-text);
+}
+.card .text__card .review i:not(:last-child){
+  color: var(--color-yellow);
+}
+.img__product > img{
+  width: 150px;
+  margin-bottom: 20px;
+}
+.img__product{
+  position: relative;
+  border-bottom: 1px solid #0000001a;
+  width: 81%;
+  margin: auto;
+}
+.img__product .more__details{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.card:hover .more__details{
+  opacity: 1;
+  bottom: 18px;
+}
+.more__details > i{
+  background-color: var(--main-color);
+  color: var(--color-white);
+  padding: 12px;
+  margin: 4px;
+  border-radius: 4px;
+  cursor:var(--cursor)
+}
+.text__card >h3{
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--color-of-text);
+  padding: 10px 0;
+}
+.text__card .price__product > span{
+  font-size: 18px;
+  font-weight: 700;
+}
+.text__card .old__price{
+  color: var(--color-red);
+  text-decoration:line-through;
+}
+.text__card .new__price{
+  color: var(--main-color);
+}
+.text__card .new__price .after__price{
+  font-weight: normal;
+  font-size: 17px;
+}
+.text__card .add__product{
+  background-color: var(--Bg);
+  color: var(--color-of-text);
+  margin-top: 15px;
+  width: 80%;
+  font-size: 17px;
+  transition:all 0.3s linear;
+}
+.card:hover .add__product{
+  background-color: var(--main-color);
+  color: var(--color-white);
+}
+.show-more{
+  display: flex;
+  justify-content: center;
+}
+.show-more > a{
+  background-color: var(--color-white);
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  padding: 13px 35px;
+  transition: all 0.3s linear;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.show-more > a:hover{
+  background-color: var(--main-color);
+  color: var(--color-white);
+}

@@ -1,0 +1,197 @@
+/* start section blog */
+.Blog .card__blog .img__blog{
+  overflow: hidden;
+}
+.Blog .card__blog .img__blog img{
+  transition: transform 0.3s linear ;
+}
+.Blog .card__blog .img__blog img:hover{
+  transform: scale(1.1);
+}
+.Blog .card__blog .text__cardBlog .admin{
+  padding: 10px 0;
+}
+.Blog .text__cardBlog .admin .col__admin i{
+  color: var(--main-color);
+}
+.Blog .text__cardBlog .admin .col__admin span{
+  color: var(--color-of-text);
+  font-weight: 600;
+}
+.Blog .text__cardBlog a:nth-child(2){
+  display: block;
+  font-size: 21px;
+  line-height: 1.5;
+  color: #000;
+  font-weight: 600;
+  transition: color 0.3s linear;
+}
+.Blog .text__cardBlog a:nth-child(2):hover{
+  color: var(--main-color);
+}
+.Blog .text__cardBlog a:last-child{
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 15px;
+  display: block;
+  padding: 10px 0;
+}
+.Blog .text__cardBlog a:last-child > i{
+  transition: padding-left 0.3s linear;
+}
+.Blog .text__cardBlog a:last-child:hover > i{
+  padding-left: 5px;
+}
+.Blog .card-blog {
+  background-color: var(--color-white);
+  padding: 20px ;
+  margin: 10px 0;
+}
+.Blog .card-blog h3{
+  font-weight: 500;
+  padding-bottom: 10px;
+  color: var(--color-of-header);
+  position: relative;
+}
+.Blog .card-blog h3:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(0 0 0 / 20%);
+  bottom: 0;
+  left: 0;
+}
+.Blog .card-blog h3::before{
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 2px;
+  background-color: var(--main-color);
+  bottom: 0;
+  left: 0;
+}
+.Blog .popular-feeds .Blog__items .item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.Blog .popular-feeds .Blog__items .item:not(:last-child)::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(0 0 0 / 20%);
+  bottom: 0;
+  left: 0;
+}
+.Blog .popular-feeds .Blog__items .item__img{
+  width: 33%;
+}
+.Blog .popular-feeds .Blog__items .item__img img{
+  border-radius: 5px;
+}
+.Blog .popular-feeds .Blog__items .item__text{
+  width: 60%;
+}
+.Blog .popular-feeds .Blog__items .item__text > a{
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  transition: color 0.3s linear;
+}
+.Blog .popular-feeds .Blog__items .item__text > a:hover{
+  color: var(--main-color);
+}
+.Blog .popular-feeds .Blog__items .item__text > p{
+  font-size: 13px;
+  padding-top: 5px;
+}
+.Blog .categories__items ul li{
+  position: relative;
+  margin: 10px 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.Blog .categories__items ul li:not(:last-child)::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(0 0 0 / 20%);
+  bottom: 0;
+  left: 0;
+}
+.Blog .categories__items ul li .blog-link{
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  color: var(--color-of-text);
+  font-weight: 500;
+  font-size: 17px;
+  cursor: var(--cursor);
+}
+.Blog .categories__items ul li span:last-child{
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-of-header);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.Blog .popular-feeds{
+  margin: 0;
+}
+.Blog .Popular-Tags .popular__items ul{
+  padding-top: 15px;
+}
+.Blog .popular__items ul li{
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  padding: 3px 8px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: background-color 0.3s linear;
+}
+.Blog .popular__items ul li:hover{
+  background-color: var(--main-color);
+}
+.Blog .popular__items ul li a{
+  color: var(--color-of-text);
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 0.3s linear;
+}
+.Blog .popular__items ul li:hover > a{
+  color: var(--color-white);
+}
+.Blog .social__media ul{
+  padding-top: 15px;
+}
+.Blog .social__media ul li{
+  background-color: var(--color-of-header);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  border-radius: 3px;
+  transition: background-color 0.3s linear;
+}
+.Blog .social__media ul li:hover{
+  background-color: var(--main-color);
+}
+.Blog .social__media ul li a{
+  color:var(--color-white);
+  font-size: 18px;
+}

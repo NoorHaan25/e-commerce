@@ -1,0 +1,31 @@
+.navbar-light{
+  padding: 15px 0;
+}
+.navbar-items{
+  display: flex;
+  margin: 0;
+}
+.navbar-light li .nav-link {
+  color: var(--color-of-text);
+  font-size: 16px;
+  font-weight: 700;
+  padding:0 15px;
+  transition: color 0.3s linear;
+}
+.navbar-light li .active {
+  color:var(--main-color);
+}
+.navbar-light li .nav-link:hover {
+  color: var(--main-color);
+}
+.nav__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__content .logo{
+  display: none;
+}
+.navbar-expand-lg>.container{
+  display: block;
+}

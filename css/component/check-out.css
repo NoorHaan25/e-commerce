@@ -1,0 +1,284 @@
+/* page check */
+.check__login .text__check{
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px 20px;
+  border-radius: 3px;
+  background: var(--color-white);
+  border-top: 3px solid var(--main-color);
+  box-shadow: var(--box-shadow);
+  margin-top: 20px;
+}
+.check__login .text__check > span{
+  color: var(--main-color);
+  font-weight: bold;
+}
+.check__login .text__check > a{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.check__card {
+  background-color: var(--color-white);
+  padding: 30px;
+}
+.check__card .check__title{
+  position: relative;
+  padding: 18px 0px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid var(--border);
+}
+.check__card .check__title::before{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+  width: 20%;
+  height: 2px;
+  background: var(--main-color);
+}
+.check__card .check__title h3{
+  color: var(--color-of-text);
+  font-weight: bold;
+}
+ table{
+  width: 100%;
+}
+table > thead{
+  background-color: var(--main-color);
+  border-radius: 5px;
+}
+table > thead tr th{
+  font-size: 17px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 12px 20px;
+  color: var(--white);
+  border-right: 1px solid var(--border);
+}
+table > thead tr th:first-child{
+  border-radius: 5px 0 0 5px;
+}
+table > thead tr th:last-child{
+  border-radius: 0 5px 5px 0;
+}
+table tbody tr td{
+  text-align: center;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  font-weight: bold;
+}
+table tbody tr td:last-child{
+  border-right: none;
+  color: var(--color-red);
+}
+table tbody tr td:last-child i{
+  color: var(--color-red);
+  background-color: var(--border);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+table tbody tr td:last-child i:hover{
+  background-color: var(--color-red);
+  color: var(--color-white);
+}
+table tbody tr td .img__product{
+  width: 50%;
+  border-bottom: none;
+}
+table > tbody tr .shopping{
+  background-color: var(--main-color);
+    padding: 7px 20px;
+    color: var(--color-white);
+    border-radius: 5px;
+    font-size: 15px
+ }
+/* start section beverages */
+.beverages{
+  background-image: url(../img/beverages/background-beverages.webp);
+}
+.beverages-products .cart-item > a{
+  color: var(--color-darkblue);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0;
+  display: block;
+  text-align: center;
+}
+
+/* favorits */
+.favorits .like__product >i{
+  color: var(--main-color);
+}
+/* info-totalPrice" */
+.info-totalPrice .cart-total{
+  background-color: var(--color-white);
+    border-top: 4px solid var(--main-color);
+    border-radius: 5px;
+    padding: 20px;
+}
+.info-totalPrice .cart-total ul li{
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.info-totalPrice .cart-total ul li >span{
+  font-weight: bold;
+}
+.info-totalPrice .cart-total ul li:last-child{
+  border-bottom: none;
+}
+.info-totalPrice .cart-total ul li:last-child >span{
+  color: var(--main-color);
+}
+.p-items{
+  margin: 30px 0;
+}
+.p-items .delivery-info{
+  display: flex;
+  justify-content: space-between;
+}
+.p-items .item{
+  background-color: var(--color-green-light);
+  width: 325px;
+  padding: 15px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid var(--main-color);
+  border-radius: 7px;
+}
+.p-items .item h4{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.p-items .item span{
+  font-size: 14px;
+  padding-top: 6px;
+}
+.p-items .item:nth-child(2){
+  background-color:var(--Bg);
+  border-color: var(--border);
+}
+.p-items .check__title > button{
+  background-color: var(--color-green-light);
+  padding: 8px 15px;
+  border-radius: 6px;
+  color: var(--main-color);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+.cart-info{
+  background-color: hsla(0, 0%, 0%, 0.5);
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5555;
+} 
+.enter-number{
+  display: none;
+}
+.enter-adress{
+  display: none;
+}
+.enter-Paymentess {
+  display: none;
+}
+.cart-info .cart-contact{
+  background-color: var(--color-white);
+  padding: 30px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+.enter-adress .cart-contact{
+  height: 550px;
+}
+.enter-Paymentess .cart-contact{
+  height: 300px;
+}
+.cart-info .cart-contact >h4{
+  font-weight: 600;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.cart-info .cart-contact > .input-info{
+  display: flex;
+  flex-direction: column;
+}
+.cart-info .cart-contact > .input-info > label{
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.cart-info .cart-contact .input-title{
+  padding-bottom: 20px;
+}
+.cart-info .cart-contact > .input-info > input,
+.cart-info .cart-contact > .input-info > select{
+  border: 1px solid var(--border);
+  padding: 7px;
+  border-radius: 5px;
+}
+.cart-info .cart-contact > button{
+  background-color: var(--main-color);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-weight: 500;
+}
+.cart-info .cart-contact .close-cart{
+  position: absolute;
+  top: -6px;
+  right: 10px;
+}
+.cart-info .cart-contact .close-cart > i{
+  background-color: var(--color-white);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--box-shadow);
+  cursor:var(--cursor);
+}
+.Paymentess .delivery-info img{
+  width: 30px;
+}
+.Paymentess .delivery-info .item h4{
+  font-size: 14px;
+}
+.Paymentess .check__card .checked{
+  padding-top: 30px;
+  display: flex;
+  align-items: baseline;
+}
+.Paymentess .check__card .checked label{
+  padding-left: 10px;
+}
+.Paymentess .check__card .checked a{
+  color: var(--main-color);
+  font-weight: bold;
+}
+.Paymentess .check__card .proced-check > button{
+  width: 100%;
+  background-color: var(--main-color);
+  padding: 16px;
+  text-align: center;
+  color: var(--color-white);
+  border-radius: 5px;
+  margin-top: 18px;
+}

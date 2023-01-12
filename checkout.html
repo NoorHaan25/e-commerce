@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive/responsive.css">
+  <link rel="icon" href="./img/icon.png">
+  <title>Greeny-Checkout</title>
+</head>
+<body >
+  <!-- start section header -->
+  <!-- top__header -->
+  <div class="top__header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="topHeader__content">
+            <p class="welcome">Welcome to Ecomart in Your Dream Online Store!</p>
+            <div class="links__header">
+              <a href="#">Offers</a>
+              <a href="#">Need Help</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+            <div class="user">
+              <div class="img-user">
+                <img src="./img/home/user.png" alt="user">
+              </div>
+              <div class="name-user">
+                <span>Nour</span>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="logo">
+            <img src="./img/logo.png" alt="logo">
+          </div>
+        </div>
+      <div class="col-lg-4">
+        <div class="icons__crud">
+          <div class="icon__crud">
+            <a href="./compare.html">
+              <i class="fa-solid fa-shuffle"></i>
+            </a>
+            <span id="count-compare"></span>
+          </div>
+          <div class="icon__crud">
+            <a href="./favourites.html">
+              <i class=" fa-solid fa-heart"></i>
+            </a>
+            <span id="count-like"></span>
+          </div>
+          <div class="icon__crud " id="basket-shopping">
+              <i class="fa-solid fa-basket-shopping"></i>
+            <span id="number-product"></span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </header>
+      <!-- nav__bar -->
+  <nav class="navbar navbar-expand-lg navbar-light nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="nav__content">
+            <div class="nav__bar">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <ul class="navbar-items navbar-list">
+                <li>
+                  <a class="nav-link" href="./index.html"> Home </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./category.html">Category</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./blog.html">Blog</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./contact.html"> Contact</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./Register.html">Register</a>
+                </li>
+              </ul>
+            </div>
+            <div class="logo">
+              <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="contact__header">
+              <div class="contact d-flex align-items-center">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <div class="text__contact">
+                  <span>Call Us <br>
+                    (+880) 183 8288 389</span>
+                </div>
+              </div>
+              <div class="contact d-flex align-items-center">
+                <i class="fa-solid fa-at"></i>
+                <div class="text__contact">
+                  <span>Email Us<br>
+                    support@example.com</span>
+                </div>
+              </div>
+            </div>
+             <div class="user">
+              <div class="img-user">
+                <img src="./img/home/user.png" alt="user">
+              </div>
+              <div class="name-user">
+                <span>Nour</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Section Header -->
+  <section class="other-pages">
+  <div class="text d-flex justify-content-center align-items-center flex-column">
+    <div class="header-otherPages">
+      <h3>CHECKOUT</h3>
+    </div>
+    <div class="links-otherPages">
+      <a href="index.html">Home</a>
+      <i class="fa-solid fa-arrow-right"></i>
+      <a href="blog.html">CHECKOUT</a>
+    </div>
+  </div>
+  </section>
+  <section class="check p-f-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="check__login ">
+          <div class="text__check">
+            <span>Returning customer? </span>
+            <a href="./login.html">Click here to login</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="check__card">
+          <div class="check__title">
+            <h3>Your Order</h3>
+          </div>
+          <div class="check__orders">
+            <table>
+              <thead>
+                <tr>
+                  <th>Serial</th>
+                  <th>Product</th>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Brand</th>
+                  <th>Quantity</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="tbody">
+              
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="info-totalPrice">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-8">
+          <div class="cart-total">
+            <ul>
+              <li>
+                <span>Sub Total</span>
+                <span id="sub-total"></span>
+              </li>
+              <li>
+                <span>Delivery Fee</span>
+                <span id="Delivery">50</span>
+              </li>
+              <li>
+                <span>Discount</span>
+                <span id="Discount">0</span>
+              </li>
+              <li>
+                <span>Total(Incl. VAT)</span>
+                <span  id="total-incl">0</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Delivery-Schedule p-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="check__card">
+            <div class="check__title">
+              <h3>Delivery Schedule</h3>
+            </div>
+            <div class="delivery-info">
+              <div class="item">
+                <h4>Express</h4>
+                <span>90 Min Express Delivery</span>
+              </div>
+              <div class="item">
+                <h4>8am-10pm</h4>
+                <span>8.00 AM - 10.00 PM</span>
+              </div>
+              <div class="item">
+                <h4>Next Day</h4>
+                <span>Next Day Or Tomorrow</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Contact-Number p-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="check__card">
+            <div class="check__title d-flex justify-content-between">
+              <h3>Contact Number</h3>
+              <button id="add-contact">Add Contact</button>
+            </div>
+            <div class="delivery-info">
+              <div class="item">
+                <h4>Primary</h4>
+                <span>+8801838288389</span>
+              </div>
+              <div class="item">
+                <h4>Secondary</h4>
+                <span>+8801941101915</span>
+              </div>
+              <div class="item">
+                <h4>Secondary</h4>
+                <span>+8801747875727</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="address p-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="check__card">
+            <div class="check__title d-flex justify-content-between">
+              <h3>Delivery Address</h3>
+              <button id="add-title">Add Address</button>
+            </div>
+            <div class="delivery-info">
+              <div class="item">
+                <h4>Home</h4>
+                <span>Jalkuri, Fatullah, Narayanganj-1420. Word No-09, Road No-17/A</span>
+              </div>
+              <div class="item">
+                <h4>Office</h4>
+                <span>East Tejturi Bazar, Dhaka-1200. Word No-04, Road No-13/C, House No-4/B</span>
+              </div>
+              <div class="item">
+                <h4>Bussiness</h4>
+                <span>Kawran Bazar, Dhaka-1100. Word No-02, Road No-13/D, House No-7/M</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Paymentess p-items">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="check__card">
+            <div class="check__title d-flex justify-content-between">
+              <h3>Payment Option</h3>
+              <button id="add-card">Add Card</button>
+            </div>
+            <div class="delivery-info">
+              <div class="item">
+                <img src="./img//check-out/01.png" alt="visa">
+                <h4>Card Number</h4>
+                <span>************1876</span>
+                <span>Nour Taha</span>
+              </div>
+              <div class="item">
+                <img src="./img//check-out/02.png" alt="visa">
+                <h4>Card Number</h4>
+                <span>************1876</span>
+                <span>Nour Taha</span>
+              </div>
+              <div class="item">
+                <img src="./img//check-out/03.png" alt="visa">
+                <h4>Card Number</h4>
+                <span>************1876</span>
+                <span>Nour Taha</span>
+              </div>
+            </div>
+            <div class="checked">
+              <input type="checkbox" name="checked" id="checked">
+              <label for="checked">By making this purchase you agree to <a href="#"> our Terms and Conditions</a>.</label>
+            </div>
+            <div class="proced-check">
+              <button>proced to checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="enter-number cart-info">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-8">
+          <div class="cart-contact">
+            <h4>Add New Contact</h4>
+            <div class="input-title input-info">
+              <label for="title">Title</label>
+              <select name="title" id="title">
+                <option value="Add Your Number">Add Your Number</option>
+                <option value="primary">primary</option>
+                <option value="secondary">secondary</option>
+              </select>
+            </div>
+            <div class="input-info">
+              <label for="number">Number</label>
+              <input type="text" name="number" id="number">
+            </div>
+            <button >Save Contact Info</button>
+            <div class="close-cart" id="close-contact">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="enter-adress cart-info">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-8">
+          <div class="cart-contact">
+            <h4>Add New Contact</h4>
+            <div class="input-title input-info">
+              <label for="title">Title</label>
+              <select name="title" id="title">
+                <option value="Add Your Adress">Add Your Adress</option>
+                <option value="Home">Home</option>
+                <option value="Office">Office</option>
+              </select>
+            </div>
+            <div class="input-info ">
+              <label for="Address">Address</label>
+              <textarea name="adress" id="adress" cols="30" rows="10" placeholder="Enter Your Adress"></textarea>
+            </div>
+            <button >Save adress Info</button>
+            <div class="close-cart" id="close-adress">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="enter-Paymentess cart-info">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-sm-8">
+          <div class="cart-contact">
+            <h4>Add New Payment</h4>
+            <div class="input-info ">
+              <label for="number">Card Number</label>
+              <input type="text" name="number" id=""number>
+            </div>
+            <button >Save card Info</button>
+            <div class="close-cart" id="close-card-payment">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!--  Start section "Footer" -->
+    <footer class="p-70 BG">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="text__footer">
+              <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+              </div>
+              <p>
+                Adipisci asperiores ipsum ipsa repellat consequatur repudiandae quisquam assumenda dolor perspiciatis sit ipsum dolor amet.
+              </p>
+              <div class="social__media d-flex">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="contact-us header__footer">
+              <h3>Contact Us</h3>
+              <div class="contact">
+                <div class="row align-items-center">
+                  <div class=" icon__contact">
+                    <i class="fa-solid fa-at"></i>
+                  </div>
+                  <div class="text__contact">
+                    <p>
+                      support@example.com<br>
+                      carrer@example.com
+                    </p>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class=" icon__contact">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                  </div>
+                  <div class="text__contact">
+                    <p>
+                      +120 279 532 13<br>
+                      +120 279 532 14
+                    </p>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class=" icon__contact">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="text__contact">
+                    <p>
+                      1Hd- 50, 010 Avenue, NY<br>
+                      90001 United States
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="links header__footer">
+              <h3>Quick Links</h3>
+              <div class="ul__links d-flex">
+                <ul>
+                  <li>
+                    <a href="#">My Account</a>
+                  </li>
+                  <li>
+                    <a href="#">Order History</a>
+                  </li>
+                  <li>
+                    <a href="#">Order Tracking</a>
+                  </li>
+                  <li>
+                    <a href="#">Best Seller</a>
+                  </li>
+                  <li>
+                    <a href="#">New Arrivals</a>
+                  </li>
+                </ul> 
+                <ul>
+                  <li>
+                    <a href="#">Location</a>
+                  </li>
+                  <li>
+                    <a href="#">Affiliates</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                  <li>
+                    <a href="#">Carrer</a>
+                  </li>
+                  <li>
+                    <a href="#">Faq</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="download header__footer">
+              <h3>
+                Download App
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet tenetur dignissimos ipsum eligendi autem obcaecati minus ducimus totam reprehenderit exercitationem!
+              </p>
+              <div class="img__app d-flex">
+                <div class="img">
+                  <a href="#">
+                    <img src="./img/google-store.png" alt="google-store">
+                  </a>
+                </div>
+                <div class="img">
+                  <a href="#">
+                    <img src="./img/app-store.png" alt="app-store">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> 
+    <!--  End section "Footer" -->
+    <section class="copyright">
+      <div class="container">
+        <div class="copyright-item">
+          <p>© All Copyrights Reserved by Mironcoder</p>
+          <div class="img-visa">
+            <div class="img">
+              <img src="./img/footer/01.jpg" alt="visa">
+            </div>
+            <div class="img">
+              <img src="./img/footer/02.jpg" alt="visa">
+            </div>
+            <div class="img">
+              <img src="./img/footer/03.jpg" alt="visa">
+            </div>
+            <div class="img">
+              <img src="./img/footer/04.jpg" alt="visa">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start section icons-smallPhone -->
+    <div class="icons__smallPhone">
+      <div class="container">
+          <div class="icons-sections">
+            <div class="home-phone">
+              <a href="./index.html">
+                <div class="icon__crudSmallPhone">
+                  <div class="row-card">
+                    <i class="fa-solid fa-house-user"></i>
+                  </div>
+                  <p>Home</p>
+                </div>
+              </a>
+            </div>
+            <button class="category-phone">
+              <div class="icon__crudSmallPhone">
+                <div class="row-card">
+                  <i class="fa-solid fa-list"></i>
+                </div>
+                <p>category</p>
+              </div>
+            </button>
+            <div class="shopping-phone icon-count">
+                <div class="icon__crudSmallPhone">
+                  <div class="row-card">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span id="number-product-phone"></span>
+                  </div>
+                  <p>CartList</p>
+                </div>
+            </div>
+            <div class="fav-phone icon-count">
+              <a href="./favourites.html">
+                <div class="icon__crudSmallPhone">
+                  <div class="row-card">
+                    <i class="like fa-solid fa-heart"></i>
+                    <span id="count-like-phone"></span>
+                  </div>
+                  <p>wishlist</p>
+                </div>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>  
+    <!-- End section icons-smallPhone -->
+      <!-- Start section Add to card -->
+    <section class="Add-Card" id="Add-Card">
+      <div class="card-product">
+        <div class="header__productCard">
+          <div class="close-card" id="close-card">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <h3>
+            <i class="fa-solid fa-basket-shopping"></i>
+            total item
+          </h3>
+        </div>
+        <div class="items__productCard" id="products-shop">
+          <div class="item__productCard">
+            <div class="img__productCard">
+              <img src="./img/feature1.jpg" alt="feature1">
+              <i class="far fa-trash-alt"></i>
+            </div>
+            <div class="text__productCard">
+              <h3>Existing Product Name</h3>
+              <p>Unit Price - $8.75</p>
+              <div class="count">
+                <span>count:</span>
+                <span class="number">5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="All-Products d-flex justify-content-center" id="All-Products">
+          <a href="./checkout.html">View All Products</a>
+        </div>
+      </div>
+    </section>
+    <!-- End section Add to card -->
+    <!-- start section category in phone -->
+    <section class="item-phone">
+      <div class="items">
+        <div class="header-categories d-flex align-items-center">
+          <i class="fa-solid fa-bars-staggered"></i>
+          <h3>Categories</h3>
+        </div>
+        <ul>
+          <li>
+            <img src="./img/icons/004-vegetable.png" alt="vegetable">
+            <a href="./vegetables.html">vegetable</a>
+          </li>
+          <li>
+            <img src="./img/icons/003-fruits.png" alt="fruits">
+            <a href="./fruits.html">fruits</a>
+          </li>
+          <li>
+            <img src="./img/icons/008-softdrinks.png" alt="beverages">
+            <a href="./beverages.html">beverages</a>
+          </li>
+          <li>
+            <img src="./img/icons/002-snack.png" alt="Snacks">
+            <a href="./snacks.html">Snacks</a>
+          </li>
+          <li>
+            <img src="./img/icons/001-cake.png" alt="Desserts">
+            <a href="./Bakery-Desserts.html">Bakery & Desserts</a>
+          </li>
+          <li>
+            <img src="./img/icons/005-milk.png" alt="Dairy">
+            <a href="./dairy.html">Dairy-Eggs-Bread</a>
+          </li>
+          <li>
+            <img src="./img/icons/002-eggs.png" alt="Meat">
+            <a href="./meat.html">Meat -Poultry</a>
+          </li>
+          <li>
+            <img src="./img/icons/002-eggs.png" alt="Meat">
+            <a href="./cheese.html">Cheese</a>
+          </li>
+        </ul>
+        <div class="close-cart" id="close-category-Phone">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </section> 
+      <!-- start section more details -->
+  <script src="./js/jquery-3.6.1.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/checkout.js"></script>
+</body>
+</html>

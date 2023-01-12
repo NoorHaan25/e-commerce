@@ -1,0 +1,92 @@
+/* Start section "Footer" */
+footer .logo > img{
+  width:180px
+}
+footer p{
+  font-weight: normal;
+  color: var(--color-of-text);
+}
+footer .header__footer h3{
+  padding-bottom: 30px;
+  font-size: 24px;
+}
+footer .social__media > i{
+  color: var(--main-color);
+  background-color: var(--color-white);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+  cursor:var(--cursor);
+}
+footer .social__media > i:hover{
+  background-color: var(--main-color);
+  color:var(--color-white);
+}
+footer .text__footer > p{
+  padding:10px 0;
+}
+footer .contact-us .icon__contact > i{
+  color: var(--main-color);
+    font-size: 25px;
+    padding-right: 10px;
+}
+footer .contact-us .contact > .row{
+  padding-bottom: 20px;
+}
+footer .links ul{
+  padding-right: 20px;
+}
+footer .links ul li{
+  position: relative;
+  padding-left:20px;
+  transition:padding-left 0.3s linear ;
+}
+footer .links ul li:hover{
+  padding-left: 25px;
+}
+footer .links ul li::before{
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  font-weight: 600;
+  top: 0;
+  left: 0;
+  color: var(--main-color);
+}
+footer .links ul li a{
+  color: var(--color-of-text);
+  padding-bottom: 20px;
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.3s linear;
+}
+footer .links ul li a:hover{
+  color: var(--main-color);
+  text-decoration: underline;
+}
+footer .img__app{
+  padding-top: 20px;
+}
+.copyright-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--main-color);
+  padding: 15px;
+  border-radius: 5px;
+}
+.copyright-item > p{
+  color: var(--color-white);
+}
+.copyright .img-visa{
+  display: flex;
+}
+.copyright .img-visa img{
+  margin-left: 10px;
+}

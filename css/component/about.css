@@ -1,0 +1,113 @@
+/* start section about */
+.about{
+  padding-top: 225px;
+}
+.about .img-about{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.about .text-about > h4{
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+.about .list-about{
+  padding-top: 50px;
+}
+.about .list-about > ul{
+  display: flex;
+}
+.about .list-about > ul li{
+  padding: 0 25px;
+}
+.about .list-about > ul li:nth-child(2){
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+.about .list-about > ul li h5{
+  font-size: 25px;
+}
+.about .list-about > ul li p{
+  font-weight: normal;
+}
+.about .img-about > .img{
+  width: 48%;
+}
+.about .img-about > .img > img{
+  border-radius: 10px;
+}
+.about-features h3{
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.about-features .cart-about{
+  display: flex;
+  padding: 20px;
+}
+.about-features .cart-about .icon-cart{
+  padding-right: 20px;
+}
+.about-features .cart-about .icon-cart i{
+  font-size: 30px;
+  color: var(--main-color);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+.about-features .cart-about:hover > .icon-cart i{
+  background-color: var(--main-color);
+  color: var(--color-white);
+}
+.about-features .cart-about .text-cart p{
+  font-weight: normal;
+}
+.about-team .img-team{
+  position: relative;
+}
+.about-team .img-team img{
+  border-radius: 10px;
+}
+.about-team .img-team:after{
+  content: "";
+  position: absolute;
+  background-color: rgb(0 0 0 / 0);
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  transition: all 0.3s linear;
+  border-radius: 10px;
+}
+.about-team .img-team:hover::after{
+  background-color: rgb(0 0 0 / 50%);
+}
+.about-team .img-team .social-media{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top:55% ;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 100%;
+  opacity: 0;
+  z-index: 1;
+  transition: all 0.3s linear;
+}
+.about-team .img-team:hover .social-media{
+  opacity: 1;
+  top:50%;
+}
+.about-team .img-team .social-media i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--color-of-text);
+  margin: 4px;
+}

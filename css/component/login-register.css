@@ -1,0 +1,129 @@
+/* start page "enter" */
+.enter .logo{
+  width: 100%;
+  margin-bottom: 24px;
+}
+.enter .header__enter{
+  width: 100%;
+}
+.enter .header__enter >h1{
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+}
+.enter .form-card{
+  margin-top: 30px;
+}
+.enter .enter-form{
+  padding-top: 20px;
+}
+.enter .social-media a{
+  display: block;
+  background-color: var(--facebook);
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border-radius: 5px;
+  color: var(--color-white);
+  text-align: center;
+}
+.enter .social-media a:nth-child(2){
+  background-color: var(--twitter);
+}
+.enter .social-media a:nth-child(3){
+  background-color: var(--google);
+}
+.enter .social-media a:last-child{
+  background-color: var(--instagram);
+}
+.enter .form input{
+  display: block;
+  background-color: var(--Bg);
+  padding: 10px ;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0,0,0,.25);
+  border-radius: 8px;
+  transition: border 0.3s linear;
+}
+.enter .form input::placeholder{
+  font-size: 14px;
+}
+.enter .form .checkbox > input{
+  width: unset;
+}
+.enter .form .checkbox > input:checked{
+  background-color: var(--main-color);
+}
+.enter .form .checkbox label{
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.enter .form input:focus{
+  border: 1px solid var(--main-color);
+}
+.enter .form input[type="button"]{
+  background-color: var(--main-color);
+  color: var(--color-white);
+}
+.enter .form-card{
+  display: flex;
+}
+.enter .form-card .social-media ,
+.enter .form-card .form{
+  width: 40%;
+}
+/* .enter .forget a{
+  font-weight: bold;
+  color: var(--main-color);
+} */
+.enter .form-card .or{
+  position: relative;
+  width: 20%;
+}
+.enter .form-card .or::before{
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: var(--color-of-border);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-card .or p{
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--color-of-border);
+  position: absolute;
+  transform: translate(-50% , -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+.loginReg {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.loginReg > span{
+  color: var(--color-of-text);
+}
+.loginReg > a{
+  color: var(--main-color);
+  font-weight: bold;
+  padding-left: 10px;
+}
+.emailReg{
+  position: relative;
+}
+.emailReg > span{
+  position: absolute;
+  background-color: #000000;
+  color: var(--color-white);
+  padding: 10px;
+  top: -44px;
+  border-radius: 8px;
+  display: none;
+}

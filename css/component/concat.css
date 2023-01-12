@@ -1,0 +1,140 @@
+/* page contact */
+.contact .cart-contact{
+  text-align: center;
+  padding: 60px 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-white);
+  transition: background-color 0.3s linear;
+}
+.contact .active,
+.contact .cart-contact:hover{
+  background-color: var(--main-color);
+}
+.contact .cart-contact > i{
+  color: var(--color-white);
+  background-color: var(--main-color);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.contact .cart-contact > h4{
+    color: var(--color-of-text);
+    margin: 11px 0;
+    font-size: 19px;
+    font-weight: bold;
+    transition: color 0.3 linear;
+}
+.contact .active > i,
+.contact .cart-contact:hover > i{
+  background-color: var(--color-white);
+  color: var(--main-color);
+  transition: all 0.3 linear;
+}
+.contact .active >h4,
+.contact .cart-contact:hover > h4{
+  color:var(--color-white);
+}
+.contact .cart-contact > p{
+  color:var(--color-of-text);
+  transition: color 0.3 linear;
+}
+.contact .active >p,
+.contact .cart-contact:hover > p{
+  color:var(--color-white);
+}
+.form-contact .form{
+  background-color: var(--color-white);
+  padding: 30px;
+}
+.form-contact .form > h3{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.form-contact form .input{
+  position: relative;
+  margin: 20px 0;
+}
+.form-contact form .input input ,
+.form-contact form .input textarea{
+  width: 100%;
+  background-color: var(--Bg);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  padding: 10px 34px;
+  font-size: 13px;
+}
+.form-contact form .input i{
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.form form .text-area i{
+  top: 24px
+}
+.form-contact form .input input:focus,
+.form-contact form .input textarea:focus{
+  outline: 2px solid var(--main-color);
+}
+.form-contact form .input input:focus + i,
+.form-contact form .input textarea:focus + i{
+  color: var(--main-color);
+}
+.location .cart-location {
+  position: relative;
+}
+.location .cart-location .img{
+  position: relative;
+}
+.location .cart-location .img > img{
+  border-radius: 10px;
+  width: 100%;
+}
+.location .cart-location .img::after{
+  content: "";
+  position: absolute;
+  background-color: hwb(0 0% 100% / 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  inset: 0;
+  transition: background-color 0.3s linear;
+}
+.location .cart-location .text-location{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  transition: top 0.3s linear;
+}
+.location .cart-location:hover .text-location{
+  top: 50%;
+}
+.location .cart-location .text-location h3{
+  color: var(--color-white);
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.location .cart-location .text-location p{
+  color: var(--color-white);
+  letter-spacing: 0.3px;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.location .cart-location:hover .text-location p{
+  opacity: 1;
+}
+.location .cart-location:hover > .img::after{
+  background-color:hwb(143 7% 41% / 0.8);
+}
